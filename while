@@ -1,0 +1,21 @@
+#include <cstdlib>
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char *argv[]) {
+    float a, q;
+
+    cout << "Entre com o primeiro numero: ";
+    cin >> a;
+
+    while (a > 0) {
+        q = a * a;
+        cout << "O valor de " << a << " ao quadrado vale: " << q << endl << endl;
+
+        cout << "Entre com o proximo numero (numero negativo para terminar): ";
+        cin >> a;
+    }
+
+    return 0;
+}
